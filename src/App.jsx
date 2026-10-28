@@ -88,14 +88,16 @@ export default function App() {
           </div>
         </section>
 
+        {/* SECTION 01: ABOUT */}
         <section className="about section-wrap section-block" id="about">
           <div className="section-heading">
             <p className="eyebrow">01 / A LITTLE ABOUT ME</p>
             <h2>Curious mind.<br /><span>Practical ideas.</span></h2>
           </div>
           <div className="about-content">
+            {/* YOU CAN CHANGE YOUR ABOUT BIO TEXT RIGHT HERE BELOW: */}
             <p>
-              I'm a recent B.E. graduate in Artificial Intelligence and Machine Learning from GM Institute of Technology, Davangere. I'm interested in building AI-powered applications and learning how intelligent systems can solve real problems.
+              I'm an AI Engineer with hands-on experience building intelligent applications, machine learning workflows, and RAG-powered systems. I specialize in turning complex data and ideas into efficient, real-world digital solutions.
             </p>
             <div className="about-facts">
               <div><span>01</span><p>AI & ML<br />Projects</p></div>
@@ -105,6 +107,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* SECTION 02: PROJECTS */}
         <section className="projects section-wrap section-block" id="projects">
           <div className="section-heading heading-row">
             <div>
@@ -138,6 +141,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* SECTION 03: SKILLS */}
         <section className="skills section-wrap section-block" id="skills">
           <div className="section-heading">
             <p className="eyebrow">03 / MY TOOLKIT</p>
@@ -162,6 +166,35 @@ export default function App() {
           </div>
         </section>
 
+        {/* SECTION 04: CREATIVE / BEYOND CODE */}
+        <section className="creative section-wrap section-block" id="creative">
+          <div className="section-heading" style={{ marginBottom: "30px" }}>
+            <p className="eyebrow">04 / BEYOND CODE</p>
+            <h2>Ideas in <span>motion.</span></h2>
+          </div>
+          <div className="creative-card">
+            <div className="creative-copy">
+              <h2>Technology is logic.<br /><span>Creativity is perspective.</span></h2>
+              <p>
+                I also enjoy video editing, visual storytelling, and exploring AI tools that make creative workflows more interesting.
+              </p>
+              <a className="button button-primary" href="#contact">
+                Collaborate with me <span>↗</span>
+              </a>
+            </div>
+            <div className="creative-art" aria-hidden="true">
+              <div className="art-frame frame-back" />
+              <div className="art-frame frame-front">
+                <span className="play-icon">▶</span>
+                <span className="art-caption">VIDEO EDITING</span>
+              </div>
+              <div className="art-orb" />
+              <span className="art-star">✳</span>
+            </div>
+          </div>
+        </section>
+
+        {/* SECTION 05: CONTACT */}
         <section className="contact section-wrap section-block" id="contact">
           <p className="eyebrow">05 / YOUR NEXT MOVE</p>
           <h2>Have an idea?<br /><span>Let's talk.</span></h2>
