@@ -59,7 +59,7 @@ export default function App() {
             <h1>Gagandeep<br /><span>Belagali.</span></h1>
             <h2 className="hero-role">AI / ML Enthusiast <span>·</span> Building with AI</h2>
             <p className="hero-description">
-              I explore AI, intelligent applications, and automation to turn ideas into useful digital experiences. I also enjoy video editing and creative experimentation.
+              I explore AI, intelligent applications, and automation to turn ideas into useful digital experiences, complemented by a strong eye for visual communication and media production.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <span>↗</span></a>
