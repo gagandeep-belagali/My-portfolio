@@ -97,7 +97,7 @@ export default function App() {
           <div className="about-content">
             {/* YOU CAN CHANGE YOUR ABOUT BIO TEXT RIGHT HERE BELOW: */}
             <p>
-              I'm an AI Engineer with hands-on experience building intelligent applications, machine learning workflows, and RAG-powered systems. I specialize in turning complex data and ideas into efficient, real-world digital solutions.
+             AI Engineer with hands-on experience building intelligent applications, machine learning workflows, and RAG-powered systems. I specialize in turning complex data and ideas into efficient, real-world digital solutions.
             </p>
             <div className="about-facts">
               <div><span>01</span><p>AI & ML<br />Projects</p></div>
